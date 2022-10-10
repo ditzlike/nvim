@@ -29,7 +29,9 @@ Plug 'hrsh7th/vim-vsnip'
 
 "   treesitter plugin
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-"Plug 'puremourning/vimspector'
+
+" Plugin for automatic quotes and paranthesis
+Plug 'tmsvg/pear-tree'
 call plug#end()
 
 " Tab navigation like Firefox.
