@@ -5,6 +5,8 @@ require("mason-lspconfig").setup({
 
 local nvim_lsp = require'lspconfig'
 
+nvim_lsp.clangd.setup{}
+
 local opts = {
     tools = { -- rust-tools options
         autoSetHints = true,
