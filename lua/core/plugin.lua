@@ -35,7 +35,9 @@ return require('packer').startup(function(use)
     end
   }
 
-  use "junegunn/vim-peekaboo"
+  use 'junegunn/vim-peekaboo'
+
+  use 'tmsvg/pear-tree'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
