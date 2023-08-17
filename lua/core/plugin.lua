@@ -41,6 +41,9 @@ return require('packer').startup(function(use)
 
   use 'voldikss/vim-floaterm'
 
+  -- ensure installed: latexmk
+  use 'lervag/vimtex'
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then
