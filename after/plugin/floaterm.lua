@@ -4,3 +4,4 @@ vim.keymap.set('n', "<leader>t", ":FloatermToggle myfloat<CR>", { desc = 'Floate
 vim.keymap.set('t', "<Esc>", "<C-\\><C-n>:q<CR>", { desc = 'close Floaterm' })
 vim.keymap.set('t', "<leader>tn", "<C-\\><C-n>:FloatermNext<CR>", { desc = 'close Floaterm' })
 vim.keymap.set('t', "<leader>tp", "<C-\\><C-n>:FloatermPrev<CR>", { desc = 'close Floaterm' })
+vim.keymap.set('t', "<C-o>", "<C-\\><C-n>:q<CR>", { desc = 'close Floaterm' })
