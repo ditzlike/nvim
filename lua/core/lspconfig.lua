@@ -1,5 +1,9 @@
 return function(use)
 	use {
+		'nvim-treesitter/nvim-treesitter',
+		run = ':TSUpdate'
+	}
+	use {
 		-- LSP Configuration & Plugins
 		'neovim/nvim-lspconfig',
 		requires = {
