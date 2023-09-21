@@ -1,4 +1,4 @@
-vim.g.mapleader = " " -- easy to reach leader key
+vim.g.mapleader = ' ' -- easy to reach leader key
 vim.keymap.set('n', 'ä', '$')
 vim.keymap.set('n', 'ö', '^')
 vim.keymap.set('n', 'dä', 'd$')

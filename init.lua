@@ -1,2 +1,2 @@
-require("core.mappings")
-require("core.plugin")
+require('core.mappings')
+require('core.plugin')
